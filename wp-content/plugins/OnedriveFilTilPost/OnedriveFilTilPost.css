@@ -1,0 +1,64 @@
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.innhold {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: Gainsboro;
+}
+
+.redigertTekst img{
+	
+	float: right;
+	width: 20em;
+	
+}
+
+h1{
+	
+	color: #444;
+	
+}
+
+button{
+	
+	
+	
+}
+
+#statusTekst{
+	
+	color: red;
+	
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
